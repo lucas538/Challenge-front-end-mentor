@@ -1,0 +1,82 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--Yellow);
+    font-family: "Figtree", sans-serif;
+}
+
+.container {
+    width: 350px;
+    background: var(--White);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 16px;
+    border: 1px solid;
+    box-shadow: 8px 8px 0 0;
+}
+
+.card .imagem__amarela {
+    width:100%;
+    border-radius:10px;
+    margin-bottom: 12px;
+}
+
+.text {
+    display: flex;
+    flex-direction:column;
+    gap: 12px;
+}
+
+.text span {
+    background:var(--Yellow);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.paragrafo {
+    font-size: 15px;
+    color: var(--Grey);
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.foto__autor {
+ align-items: center;
+ justify-content: center;
+ width: 30px;
+}
+
+.autor {
+   font-family: "Figtree", sans-serif;
+   font-weight: 800;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
